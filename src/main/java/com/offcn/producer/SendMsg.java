@@ -34,4 +34,5 @@ public class SendMsg {
         jmsMessagingTemplate.convertAndSend("queue-map",map);
         return "send success";
     }
+    //dfdsfsdfsadfadsfsa
 }
