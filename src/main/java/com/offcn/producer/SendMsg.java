@@ -34,4 +34,12 @@ public class SendMsg {
         jmsMessagingTemplate.convertAndSend("queue-map",map);
         return "send success";
     }
+
+    //send map
+    @RequestMapping("/add")
+    @ResponseBody
+    public String add(){
+        return "send success";
+    }
+
 }
